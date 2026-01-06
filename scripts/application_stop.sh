@@ -1,6 +1,11 @@
 #!/bin/bash
-#Stopping existing node servers
-echo "Stopping any existing node servers"
-#pkill node
-cd /home/ec2-user/express-app
-pm2 stop app.js
+set -e
+
+echo "===== ApplicationStop ====="
+
+# Stop app only if pm2 exists
+if command -v pm2 &> /dev/null; then
+  pm2 delete app || true
+fi
+
+echo "===== ApplicationStop completed ====="
