@@ -8,7 +8,7 @@ const products = [
     id: '101',
     name: 'Developer Laptop Pro',
     category: 'Electronics',
-    price: 65000,
+    price: 70000,
     rating: 4.8,
     badge: 'Best Seller',
     desc: 'High-performance laptop optimized for development, DevOps, and cloud workloads.'
@@ -17,7 +17,7 @@ const products = [
     id: '102',
     name: 'AI Camera Smartphone',
     category: 'Mobiles',
-    price: 30000,
+    price: 40000,
     rating: 4.6,
     badge: 'New Launch',
     desc: 'Next-generation smartphone with AI-powered camera and ultra-fast performance.'
@@ -26,7 +26,7 @@ const products = [
     id: '103',
     name: 'Noise Cancelling Headphones',
     category: 'Accessories',
-    price: 4000,
+    price: 5000,
     rating: 4.5,
     badge: 'Trending',
     desc: 'Wireless headphones with active noise cancellation and crystal-clear sound.'
@@ -167,7 +167,7 @@ app.get('/', (req, res) => {
   <h1>🚀 Hicode - Demo NodeJS Product Store</h1>
   <p>This application will be automatically deployed using AWS CodePipeline and CodeDeploy.</p>
   <p>Each new version of this application will be deployed automatically using AWS CodePipeline.</p>
-  <p><strong>Version 2.2</strong></p>
+  <p><strong>Version 3.0</strong></p>
 </header>
 
 <div class="container">
